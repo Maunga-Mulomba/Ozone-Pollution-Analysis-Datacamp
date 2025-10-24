@@ -1,0 +1,2294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3d17a5724a35df4bdcc292ac48c9ef13 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3d17a5724a35df4bdcc292ac48c9ef13" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3d17a5724a35df4bdcc292ac48c9ef13 = L.map(
+                "map_3d17a5724a35df4bdcc292ac48c9ef13",
+                {
+                    center: [37.25, -119.75],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_541648308462c8ccdf5b0030a3d626eb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_541648308462c8ccdf5b0030a3d626eb.addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+            var circle_marker_c64bcb9eab162c8e5281213fadec2e40 = L.circleMarker(
+                [32.84232, -116.76829],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_7cb05f9ee1280021753e0c2c50960566 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c5b8833c6a6aba756b8e7d28be4ab39 = $(`<div id="html_2c5b8833c6a6aba756b8e7d28be4ab39" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Alpine<br><b>County:</b> San Diego<br><b>High Ozone Days (&gt;0.070 ppm):</b> 28</div>`)[0];
+                popup_7cb05f9ee1280021753e0c2c50960566.setContent(html_2c5b8833c6a6aba756b8e7d28be4ab39);
+            
+        
+
+        circle_marker_c64bcb9eab162c8e5281213fadec2e40.bindPopup(popup_7cb05f9ee1280021753e0c2c50960566)
+        ;
+
+        
+    
+    
+            var circle_marker_fefd059985ab03098d87aca8b5cd5d28 = L.circleMarker(
+                [33.83062, -117.93845],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3e776de54f7d9f6566bd1303e4918725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_384f4f31336d251461f20f973f5d4f6b = $(`<div id="html_384f4f31336d251461f20f973f5d4f6b" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Anaheim<br><b>County:</b> Orange<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_3e776de54f7d9f6566bd1303e4918725.setContent(html_384f4f31336d251461f20f973f5d4f6b);
+            
+        
+
+        circle_marker_fefd059985ab03098d87aca8b5cd5d28.bindPopup(popup_3e776de54f7d9f6566bd1303e4918725)
+        ;
+
+        
+    
+    
+            var circle_marker_1576e7f5d73ee48fd7cf5aa819e22104 = L.circleMarker(
+                [35.23918, -118.78863],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_39171e6ab316e08958d0f1783cc3d0a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3e08c591754e6e143a0c9d5311da17f = $(`<div id="html_c3e08c591754e6e143a0c9d5311da17f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Arvin-Di Giorgio<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 66</div>`)[0];
+                popup_39171e6ab316e08958d0f1783cc3d0a5.setContent(html_c3e08c591754e6e143a0c9d5311da17f);
+            
+        
+
+        circle_marker_1576e7f5d73ee48fd7cf5aa819e22104.bindPopup(popup_39171e6ab316e08958d0f1783cc3d0a5)
+        ;
+
+        
+    
+    
+            var circle_marker_2848458efed4c3d53c64e99a2812350f = L.circleMarker(
+                [38.93568, -121.09959],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_d79981b9afb3590ac991a1d37a6d85ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d20e1fd268a2f9b550f61619fb3c3218 = $(`<div id="html_d20e1fd268a2f9b550f61619fb3c3218" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Auburn-Atwood<br><b>County:</b> Placer<br><b>High Ozone Days (&gt;0.070 ppm):</b> 24</div>`)[0];
+                popup_d79981b9afb3590ac991a1d37a6d85ba.setContent(html_d20e1fd268a2f9b550f61619fb3c3218);
+            
+        
+
+        circle_marker_2848458efed4c3d53c64e99a2812350f.bindPopup(popup_d79981b9afb3590ac991a1d37a6d85ba)
+        ;
+
+        
+    
+    
+            var circle_marker_57e7d0931ed506add0f4c0779e14c370 = L.circleMarker(
+                [35.35662, -119.06261],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_0b2ad32b0904926df488984d64f9fcf7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05b8877fa6568a670a346d9d56ee48d5 = $(`<div id="html_05b8877fa6568a670a346d9d56ee48d5" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Bakersfield-California<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 36</div>`)[0];
+                popup_0b2ad32b0904926df488984d64f9fcf7.setContent(html_05b8877fa6568a670a346d9d56ee48d5);
+            
+        
+
+        circle_marker_57e7d0931ed506add0f4c0779e14c370.bindPopup(popup_0b2ad32b0904926df488984d64f9fcf7)
+        ;
+
+        
+    
+    
+            var circle_marker_a8b924d071ca3d6b55d336ec41dfa505 = L.circleMarker(
+                [35.33161, -118.99996],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_f79cb17232729b0fe8843a9aada1192f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cac7e63fdd7af9d01c4221d33f80c38 = $(`<div id="html_8cac7e63fdd7af9d01c4221d33f80c38" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Bakersfield-Muni<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 47</div>`)[0];
+                popup_f79cb17232729b0fe8843a9aada1192f.setContent(html_8cac7e63fdd7af9d01c4221d33f80c38);
+            
+        
+
+        circle_marker_a8b924d071ca3d6b55d336ec41dfa505.bindPopup(popup_f79cb17232729b0fe8843a9aada1192f)
+        ;
+
+        
+    
+    
+            var circle_marker_59f825ae33d96a8788f155393e09b3bc = L.circleMarker(
+                [33.92086, -116.85841],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c8bb4619b0d13712a2698f6e4eb61021 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4e6f741c32c098fec1e56fdca30082f = $(`<div id="html_c4e6f741c32c098fec1e56fdca30082f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Banning Airport<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 73</div>`)[0];
+                popup_c8bb4619b0d13712a2698f6e4eb61021.setContent(html_c4e6f741c32c098fec1e56fdca30082f);
+            
+        
+
+        circle_marker_59f825ae33d96a8788f155393e09b3bc.bindPopup(popup_c8bb4619b0d13712a2698f6e4eb61021)
+        ;
+
+        
+    
+    
+            var circle_marker_eceb6b71d28d0fa02c3f2acaaf968238 = L.circleMarker(
+                [34.89405, -117.02471],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e4914cab4478aa7e902c97e9667a138f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7fd9ba4b87b25d62b79e243a666880f = $(`<div id="html_a7fd9ba4b87b25d62b79e243a666880f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Barstow<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 25</div>`)[0];
+                popup_e4914cab4478aa7e902c97e9667a138f.setContent(html_a7fd9ba4b87b25d62b79e243a666880f);
+            
+        
+
+        circle_marker_eceb6b71d28d0fa02c3f2acaaf968238.bindPopup(popup_e4914cab4478aa7e902c97e9667a138f)
+        ;
+
+        
+    
+    
+            var circle_marker_53a22b574a481f2efbcaaaab60d34eb6 = L.circleMarker(
+                [37.36214, -118.41748],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_822a514d08be543f0d22ee9dadc2db94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_416fadecb0b886b506654a9973bb8828 = $(`<div id="html_416fadecb0b886b506654a9973bb8828" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Bishop Tribe Emo<br><b>County:</b> Inyo<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_822a514d08be543f0d22ee9dadc2db94.setContent(html_416fadecb0b886b506654a9973bb8828);
+            
+        
+
+        circle_marker_53a22b574a481f2efbcaaaab60d34eb6.bindPopup(popup_822a514d08be543f0d22ee9dadc2db94)
+        ;
+
+        
+    
+    
+            var circle_marker_b2d18f0afa4a4aa2ec61572c8085fc8b = L.circleMarker(
+                [32.67618, -115.48307],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_6e1d0ccb3913e090e4adc91b4b0456a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f18ff04165d87916e64787da07791754 = $(`<div id="html_f18ff04165d87916e64787da07791754" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Calexico-Ethel Street<br><b>County:</b> Imperial<br><b>High Ozone Days (&gt;0.070 ppm):</b> 29</div>`)[0];
+                popup_6e1d0ccb3913e090e4adc91b4b0456a1.setContent(html_f18ff04165d87916e64787da07791754);
+            
+        
+
+        circle_marker_b2d18f0afa4a4aa2ec61572c8085fc8b.bindPopup(popup_6e1d0ccb3913e090e4adc91b4b0456a1)
+        ;
+
+        
+    
+    
+            var circle_marker_0c60f275b749ea8e6e9ea84726487d78 = L.circleMarker(
+                [35.35472, -120.04019],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e1725a8fadb812db6c1d2f406966f664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a55d10f2864342e487cca707b3443a5 = $(`<div id="html_3a55d10f2864342e487cca707b3443a5" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Carrizo Plains<br><b>County:</b> San Luis Obispo<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_e1725a8fadb812db6c1d2f406966f664.setContent(html_3a55d10f2864342e487cca707b3443a5);
+            
+        
+
+        circle_marker_0c60f275b749ea8e6e9ea84726487d78.bindPopup(popup_e1725a8fadb812db6c1d2f406966f664)
+        ;
+
+        
+    
+    
+            var circle_marker_6562894a21e52124f4a263030c1f65c6 = L.circleMarker(
+                [36.81945, -119.71643],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_8c0e7311eb3ec0ca29484a6a63f78c78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53e23541334230a5cc84a761f9b23c93 = $(`<div id="html_53e23541334230a5cc84a761f9b23c93" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Clovis-Villa<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 45</div>`)[0];
+                popup_8c0e7311eb3ec0ca29484a6a63f78c78.setContent(html_53e23541334230a5cc84a761f9b23c93);
+            
+        
+
+        circle_marker_6562894a21e52124f4a263030c1f65c6.bindPopup(popup_8c0e7311eb3ec0ca29484a6a63f78c78)
+        ;
+
+        
+    
+    
+            var circle_marker_ee66035fd1d9174745524339ce534c3a = L.circleMarker(
+                [38.89094, -121.00337],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_ded09584f644a179c7b314205b55e997 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfa3b4b20c326ef40dd4f8742304f5ea = $(`<div id="html_bfa3b4b20c326ef40dd4f8742304f5ea" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Cool<br><b>County:</b> El Dorado<br><b>High Ozone Days (&gt;0.070 ppm):</b> 6</div>`)[0];
+                popup_ded09584f644a179c7b314205b55e997.setContent(html_bfa3b4b20c326ef40dd4f8742304f5ea);
+            
+        
+
+        circle_marker_ee66035fd1d9174745524339ce534c3a.bindPopup(popup_ded09584f644a179c7b314205b55e997)
+        ;
+
+        
+    
+    
+            var circle_marker_5f670aa907837f92f417824e0a86579d = L.circleMarker(
+                [34.2431, -117.27235],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_dbc8c00e51a96089de16d1af3c9a9e56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a13690a9426409fc96003adb8d2dc45f = $(`<div id="html_a13690a9426409fc96003adb8d2dc45f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Crestline<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 105</div>`)[0];
+                popup_dbc8c00e51a96089de16d1af3c9a9e56.setContent(html_a13690a9426409fc96003adb8d2dc45f);
+            
+        
+
+        circle_marker_5f670aa907837f92f417824e0a86579d.bindPopup(popup_dbc8c00e51a96089de16d1af3c9a9e56)
+        ;
+
+        
+    
+    
+            var circle_marker_58c57e35e3a18222ed1720b36764cf85 = L.circleMarker(
+                [36.50861, -116.84778],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_f41cc393e51034b22e716dbc14b9081a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26f1b659bc95da7256d92cc698244290 = $(`<div id="html_26f1b659bc95da7256d92cc698244290" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Death Valley Np - Park Village<br><b>County:</b> Inyo<br><b>High Ozone Days (&gt;0.070 ppm):</b> 7</div>`)[0];
+                popup_f41cc393e51034b22e716dbc14b9081a.setContent(html_26f1b659bc95da7256d92cc698244290);
+            
+        
+
+        circle_marker_58c57e35e3a18222ed1720b36764cf85.bindPopup(popup_f41cc393e51034b22e716dbc14b9081a)
+        ;
+
+        
+    
+    
+            var circle_marker_3e6671669a8bd9288968229f8b9f6aad = L.circleMarker(
+                [32.57816, -116.92137],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_375a215284e51f5a0b9cebf4116fe7b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2121cd2cae9f4d349707e2b276f1376 = $(`<div id="html_f2121cd2cae9f4d349707e2b276f1376" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Donovan<br><b>County:</b> San Diego<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_375a215284e51f5a0b9cebf4116fe7b1.setContent(html_f2121cd2cae9f4d349707e2b276f1376);
+            
+        
+
+        circle_marker_3e6671669a8bd9288968229f8b9f6aad.bindPopup(popup_375a215284e51f5a0b9cebf4116fe7b1)
+        ;
+
+        
+    
+    
+            var circle_marker_0027deb1822762acbfa0b5f99aaad173 = L.circleMarker(
+                [38.81161, -120.03308],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_73c3f3880bb297bf11b3239fb939e63d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d568301cd784e32ed7d9526bdbe5ff1d = $(`<div id="html_d568301cd784e32ed7d9526bdbe5ff1d" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Echo Summit<br><b>County:</b> El Dorado<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_73c3f3880bb297bf11b3239fb939e63d.setContent(html_d568301cd784e32ed7d9526bdbe5ff1d);
+            
+        
+
+        circle_marker_0027deb1822762acbfa0b5f99aaad173.bindPopup(popup_73c3f3880bb297bf11b3239fb939e63d)
+        ;
+
+        
+    
+    
+            var circle_marker_93076ae91d44363de603e21332189c63 = L.circleMarker(
+                [35.34561, -118.85182],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3d51ed60d59f04f2bb5fb4d813986009 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d550496bb3b59d0d0bd84b53f70b6d3 = $(`<div id="html_2d550496bb3b59d0d0bd84b53f70b6d3" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Edison<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 73</div>`)[0];
+                popup_3d51ed60d59f04f2bb5fb4d813986009.setContent(html_2d550496bb3b59d0d0bd84b53f70b6d3);
+            
+        
+
+        circle_marker_93076ae91d44363de603e21332189c63.bindPopup(popup_3d51ed60d59f04f2bb5fb4d813986009)
+        ;
+
+        
+    
+    
+            var circle_marker_ef6c609ef06135e46d3d8dbe28ba8f2c = L.circleMarker(
+                [32.78957, -116.94431],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_b0e8fadd3184c071d15423143eec234f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a2362d710496fc78eb8ad3718fca2aa = $(`<div id="html_0a2362d710496fc78eb8ad3718fca2aa" style="width: 100.0%; height: 100.0%;"><b>Site:</b> El Cajon - Lexington Elementary School<br><b>County:</b> San Diego<br><b>High Ozone Days (&gt;0.070 ppm):</b> 5</div>`)[0];
+                popup_b0e8fadd3184c071d15423143eec234f.setContent(html_0a2362d710496fc78eb8ad3718fca2aa);
+            
+        
+
+        circle_marker_ef6c609ef06135e46d3d8dbe28ba8f2c.bindPopup(popup_b0e8fadd3184c071d15423143eec234f)
+        ;
+
+        
+    
+    
+            var circle_marker_f94d6fa05ab7ba10c6f3bee79691996c = L.circleMarker(
+                [32.79222, -115.56306],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_199e5277a9941c8243e14ba8db613822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_017237a5a21521ddf0144a353eea885f = $(`<div id="html_017237a5a21521ddf0144a353eea885f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> El Centro-9Th Street<br><b>County:</b> Imperial<br><b>High Ozone Days (&gt;0.070 ppm):</b> 10</div>`)[0];
+                popup_199e5277a9941c8243e14ba8db613822.setContent(html_017237a5a21521ddf0144a353eea885f);
+            
+        
+
+        circle_marker_f94d6fa05ab7ba10c6f3bee79691996c.bindPopup(popup_199e5277a9941c8243e14ba8db613822)
+        ;
+
+        
+    
+    
+            var circle_marker_2681d9dba97bda08e2bf743ce9d76b90 = L.circleMarker(
+                [38.22707, -122.07562],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_43af1eae44d83a8b3932ca41f589596a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f37a2edb8873d4826f7eda96fe465d46 = $(`<div id="html_f37a2edb8873d4826f7eda96fe465d46" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Fairfield<br><b>County:</b> Solano<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_43af1eae44d83a8b3932ca41f589596a.setContent(html_f37a2edb8873d4826f7eda96fe465d46);
+            
+        
+
+        circle_marker_2681d9dba97bda08e2bf743ce9d76b90.bindPopup(popup_43af1eae44d83a8b3932ca41f589596a)
+        ;
+
+        
+    
+    
+            var circle_marker_32182bb3b380193943aa060f0206585d = L.circleMarker(
+                [34.10002, -117.49201],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_6d8ff7d5737dae54eae1a3aec625d723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_208ece11cc09a8d32d345684e9cd4e7c = $(`<div id="html_208ece11cc09a8d32d345684e9cd4e7c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Fontana<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 91</div>`)[0];
+                popup_6d8ff7d5737dae54eae1a3aec625d723.setContent(html_208ece11cc09a8d32d345684e9cd4e7c);
+            
+        
+
+        circle_marker_32182bb3b380193943aa060f0206585d.bindPopup(popup_6d8ff7d5737dae54eae1a3aec625d723)
+        ;
+
+        
+    
+    
+            var circle_marker_1af48b4083aba9a151d891f9955cc81e = L.circleMarker(
+                [36.78538, -119.77321],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_cadb14fca39e64790601d54c935e8669 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3a946762cc7767063df8d7d9c77bfb4 = $(`<div id="html_c3a946762cc7767063df8d7d9c77bfb4" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Fresno - Garland<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 9</div>`)[0];
+                popup_cadb14fca39e64790601d54c935e8669.setContent(html_c3a946762cc7767063df8d7d9c77bfb4);
+            
+        
+
+        circle_marker_1af48b4083aba9a151d891f9955cc81e.bindPopup(popup_cadb14fca39e64790601d54c935e8669)
+        ;
+
+        
+    
+    
+            var circle_marker_88bca1311503c0d948892fb93328e3ce = L.circleMarker(
+                [36.70547, -119.74133],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_80f9d14a7fd14dc87d6e1ed47db3aa65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6921d520fef7c4c154dfe5bd0768e43c = $(`<div id="html_6921d520fef7c4c154dfe5bd0768e43c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Fresno-Drummond<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 35</div>`)[0];
+                popup_80f9d14a7fd14dc87d6e1ed47db3aa65.setContent(html_6921d520fef7c4c154dfe5bd0768e43c);
+            
+        
+
+        circle_marker_88bca1311503c0d948892fb93328e3ce.bindPopup(popup_80f9d14a7fd14dc87d6e1ed47db3aa65)
+        ;
+
+        
+    
+    
+            var circle_marker_3b657a4d44ce302bf2dfec80b8ad9a1d = L.circleMarker(
+                [36.84159, -119.87474],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c7f3de4b792d142c5eaa825770e69dbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faceb8373af9996762bba4e65e1ef254 = $(`<div id="html_faceb8373af9996762bba4e65e1ef254" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Fresno-Sky Park<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 25</div>`)[0];
+                popup_c7f3de4b792d142c5eaa825770e69dbb.setContent(html_faceb8373af9996762bba4e65e1ef254);
+            
+        
+
+        circle_marker_3b657a4d44ce302bf2dfec80b8ad9a1d.bindPopup(popup_c7f3de4b792d142c5eaa825770e69dbb)
+        ;
+
+        
+    
+    
+            var circle_marker_a33d24798aa07da832dabada3d498982 = L.circleMarker(
+                [34.14435, -117.85036],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_1752b9d3ffeef978f71d87a513817e4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a957f05b3b461ca629cdd33569faa5c = $(`<div id="html_7a957f05b3b461ca629cdd33569faa5c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Glendora<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 95</div>`)[0];
+                popup_1752b9d3ffeef978f71d87a513817e4a.setContent(html_7a957f05b3b461ca629cdd33569faa5c);
+            
+        
+
+        circle_marker_a33d24798aa07da832dabada3d498982.bindPopup(popup_1752b9d3ffeef978f71d87a513817e4a)
+        ;
+
+        
+    
+    
+            var circle_marker_c5300363d7d9ffc9933dce4920397809 = L.circleMarker(
+                [39.23348, -121.05561],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_daf77dcc28a2df05917a3cb5ce734c07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47bd5437319d8060ffee7af522db0ce5 = $(`<div id="html_47bd5437319d8060ffee7af522db0ce5" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Grass Valley-Litton Building<br><b>County:</b> Nevada<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_daf77dcc28a2df05917a3cb5ce734c07.setContent(html_47bd5437319d8060ffee7af522db0ce5);
+            
+        
+
+        circle_marker_c5300363d7d9ffc9933dce4920397809.bindPopup(popup_daf77dcc28a2df05917a3cb5ce734c07)
+        ;
+
+        
+    
+    
+            var circle_marker_c2ce976924ba46f0c4b26c5c151de63d = L.circleMarker(
+                [36.31567, -119.64345],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_19b746cec22134640e0421ebc1d46f3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70da7a76e7fc19f2216eb7a01cc13af6 = $(`<div id="html_70da7a76e7fc19f2216eb7a01cc13af6" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Hanford-Irwin<br><b>County:</b> Kings<br><b>High Ozone Days (&gt;0.070 ppm):</b> 25</div>`)[0];
+                popup_19b746cec22134640e0421ebc1d46f3e.setContent(html_70da7a76e7fc19f2216eb7a01cc13af6);
+            
+        
+
+        circle_marker_c2ce976924ba46f0c4b26c5c151de63d.bindPopup(popup_19b746cec22134640e0421ebc1d46f3e)
+        ;
+
+        
+    
+    
+            var circle_marker_66382044cf0284f79fab7e532bdae524 = L.circleMarker(
+                [34.41651, -117.28563],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_a902bb67f009d5f5d034f11723c6f962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61f9fb64c2d9c47a2d6df7459e2eb6c9 = $(`<div id="html_61f9fb64c2d9c47a2d6df7459e2eb6c9" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Hesperia-Olive Street<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 66</div>`)[0];
+                popup_a902bb67f009d5f5d034f11723c6f962.setContent(html_61f9fb64c2d9c47a2d6df7459e2eb6c9);
+            
+        
+
+        circle_marker_66382044cf0284f79fab7e532bdae524.bindPopup(popup_a902bb67f009d5f5d034f11723c6f962)
+        ;
+
+        
+    
+    
+            var circle_marker_a3cfa29494ddcd3a76e1633cd05e3d75 = L.circleMarker(
+                [33.72537, -116.20684],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_b31ce61cc3116ef1ed72ac2975d872ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aabb8cf9349420de5decda9f43d46451 = $(`<div id="html_aabb8cf9349420de5decda9f43d46451" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Indio Amistad High School<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 27</div>`)[0];
+                popup_b31ce61cc3116ef1ed72ac2975d872ea.setContent(html_aabb8cf9349420de5decda9f43d46451);
+            
+        
+
+        circle_marker_a3cfa29494ddcd3a76e1633cd05e3d75.bindPopup(popup_b31ce61cc3116ef1ed72ac2975d872ea)
+        ;
+
+        
+    
+    
+            var circle_marker_27e49e057bb3c91b26e95179ed46b2f5 = L.circleMarker(
+                [38.34261, -120.76443],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_173264c50147a49d84a3a41363fc7ab5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd9dcf99b3c972ee16a160fec23b2a53 = $(`<div id="html_cd9dcf99b3c972ee16a160fec23b2a53" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Jackson-Clinton Road<br><b>County:</b> Amador<br><b>High Ozone Days (&gt;0.070 ppm):</b> 6</div>`)[0];
+                popup_173264c50147a49d84a3a41363fc7ab5.setContent(html_cd9dcf99b3c972ee16a160fec23b2a53);
+            
+        
+
+        circle_marker_27e49e057bb3c91b26e95179ed46b2f5.bindPopup(popup_173264c50147a49d84a3a41363fc7ab5)
+        ;
+
+        
+    
+    
+            var circle_marker_1a32f44e648e6d892a8ff4c69e893da2 = L.circleMarker(
+                [37.54377, -119.83957],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_9b0205bb50d055d66c6f7956d782e59b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_074bc182d9cc030ac86bf4b53cb76d1d = $(`<div id="html_074bc182d9cc030ac86bf4b53cb76d1d" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Jerseydale<br><b>County:</b> Mariposa<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_9b0205bb50d055d66c6f7956d782e59b.setContent(html_074bc182d9cc030ac86bf4b53cb76d1d);
+            
+        
+
+        circle_marker_1a32f44e648e6d892a8ff4c69e893da2.bindPopup(popup_9b0205bb50d055d66c6f7956d782e59b)
+        ;
+
+        
+    
+    
+            var circle_marker_35888fd1e3aa40c995d9bbfdfff01cf7 = L.circleMarker(
+                [34.06957, -116.38893],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_309f7f070b3afba04b687729f74f4b7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b472881a92919fdb63c0a34656c24e24 = $(`<div id="html_b472881a92919fdb63c0a34656c24e24" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Joshua Tree Np<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 32</div>`)[0];
+                popup_309f7f070b3afba04b687729f74f4b7c.setContent(html_b472881a92919fdb63c0a34656c24e24);
+            
+        
+
+        circle_marker_35888fd1e3aa40c995d9bbfdfff01cf7.bindPopup(popup_309f7f070b3afba04b687729f74f4b7c)
+        ;
+
+        
+    
+    
+            var circle_marker_1b090e362a87e8570157d7bbc81fad64 = L.circleMarker(
+                [33.74724, -115.82012],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_2e17668f9096ccebe18de3c332a5c8f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d38ea0207165d772b1883597857abeea = $(`<div id="html_d38ea0207165d772b1883597857abeea" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Joshua Tree Np - Cottonwood Visitor Center<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_2e17668f9096ccebe18de3c332a5c8f7.setContent(html_d38ea0207165d772b1883597857abeea);
+            
+        
+
+        circle_marker_1b090e362a87e8570157d7bbc81fad64.bindPopup(popup_2e17668f9096ccebe18de3c332a5c8f7)
+        ;
+
+        
+    
+    
+            var circle_marker_ab7944774bf4116fad948a0b913f2857 = L.circleMarker(
+                [33.92513, -117.95264],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_88c5d7c85f99814c13375f1335818dde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fed49d87c4c2f12c1bd8640dd63f585 = $(`<div id="html_2fed49d87c4c2f12c1bd8640dd63f585" style="width: 100.0%; height: 100.0%;"><b>Site:</b> La Habra<br><b>County:</b> Orange<br><b>High Ozone Days (&gt;0.070 ppm):</b> 11</div>`)[0];
+                popup_88c5d7c85f99814c13375f1335818dde.setContent(html_2fed49d87c4c2f12c1bd8640dd63f585);
+            
+        
+
+        circle_marker_ab7944774bf4116fad948a0b913f2857.bindPopup(popup_88c5d7c85f99814c13375f1335818dde)
+        ;
+
+        
+    
+    
+            var circle_marker_85b1d423883a20f0493cc45a3c84d9fa = L.circleMarker(
+                [32.72519, -116.36441],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_77d547e55263a1c75cba38c21b7baa7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51c51289ba090f6bb09a3c4061151d59 = $(`<div id="html_51c51289ba090f6bb09a3c4061151d59" style="width: 100.0%; height: 100.0%;"><b>Site:</b> La Posta Band Of Indians<br><b>County:</b> San Diego<br><b>High Ozone Days (&gt;0.070 ppm):</b> 23</div>`)[0];
+                popup_77d547e55263a1c75cba38c21b7baa7e.setContent(html_51c51289ba090f6bb09a3c4061151d59);
+            
+        
+
+        circle_marker_85b1d423883a20f0493cc45a3c84d9fa.bindPopup(popup_77d547e55263a1c75cba38c21b7baa7e)
+        ;
+
+        
+    
+    
+            var circle_marker_0017831f9709abe84308a2e11fcf748e = L.circleMarker(
+                [33.67649, -117.33098],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_323d07dd0feed4cf6872bba40d25f542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5923e4022dbdb6c08ee16de9a188465f = $(`<div id="html_5923e4022dbdb6c08ee16de9a188465f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Lake Elsinore<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 49</div>`)[0];
+                popup_323d07dd0feed4cf6872bba40d25f542.setContent(html_5923e4022dbdb6c08ee16de9a188465f);
+            
+        
+
+        circle_marker_0017831f9709abe84308a2e11fcf748e.bindPopup(popup_323d07dd0feed4cf6872bba40d25f542)
+        ;
+
+        
+    
+    
+            var circle_marker_e873b42f5bc18d3ac02c94cf8cac48a7 = L.circleMarker(
+                [34.72539, -118.1786],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_f1e98690650a278c714cfed7156cf0cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33ed1c3f287156c96896a33480da86ca = $(`<div id="html_33ed1c3f287156c96896a33480da86ca" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Lancaster - Fairgrounds<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 30</div>`)[0];
+                popup_f1e98690650a278c714cfed7156cf0cd.setContent(html_33ed1c3f287156c96896a33480da86ca);
+            
+        
+
+        circle_marker_e873b42f5bc18d3ac02c94cf8cac48a7.bindPopup(popup_f1e98690650a278c714cfed7156cf0cd)
+        ;
+
+        
+    
+    
+            var circle_marker_a498ac1989cf2db9ad4824074a648702 = L.circleMarker(
+                [34.06659, -118.22688],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_9832ad9d41f8969211df2545b7f52607 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55cb661be6a4866e19cf0557a4f6ee5a = $(`<div id="html_55cb661be6a4866e19cf0557a4f6ee5a" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Los Angeles-North Main Street<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 6</div>`)[0];
+                popup_9832ad9d41f8969211df2545b7f52607.setContent(html_55cb661be6a4866e19cf0557a4f6ee5a);
+            
+        
+
+        circle_marker_a498ac1989cf2db9ad4824074a648702.bindPopup(popup_9832ad9d41f8969211df2545b7f52607)
+        ;
+
+        
+    
+    
+            var circle_marker_fdfefc0f9abe63361f3d452ba7aacf3b = L.circleMarker(
+                [36.95326, -120.0342],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_bce6aacc1eeab74110cfd70eb89e6657 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0abfcc14b11ec82acaf6d0556672494 = $(`<div id="html_d0abfcc14b11ec82acaf6d0556672494" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Madera-City<br><b>County:</b> Madera<br><b>High Ozone Days (&gt;0.070 ppm):</b> 19</div>`)[0];
+                popup_bce6aacc1eeab74110cfd70eb89e6657.setContent(html_d0abfcc14b11ec82acaf6d0556672494);
+            
+        
+
+        circle_marker_fdfefc0f9abe63361f3d452ba7aacf3b.bindPopup(popup_bce6aacc1eeab74110cfd70eb89e6657)
+        ;
+
+        
+    
+    
+            var circle_marker_4670763451e38b588d9c5cb1f7a26c0e = L.circleMarker(
+                [36.86712, -120.01016],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_7e5fc888f892cbd53d25e4cafdc08295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_540563ae5a4ce5e87e044253e3282a7b = $(`<div id="html_540563ae5a4ce5e87e044253e3282a7b" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Madera-Pump Yard<br><b>County:</b> Madera<br><b>High Ozone Days (&gt;0.070 ppm):</b> 11</div>`)[0];
+                popup_7e5fc888f892cbd53d25e4cafdc08295.setContent(html_540563ae5a4ce5e87e044253e3282a7b);
+            
+        
+
+        circle_marker_4670763451e38b588d9c5cb1f7a26c0e.bindPopup(popup_7e5fc888f892cbd53d25e4cafdc08295)
+        ;
+
+        
+    
+    
+            var circle_marker_df1db04992977b633d1657750efe11cc = L.circleMarker(
+                [35.05145, -119.40262],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_25224972980f058955416f07093e6627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_277b8a926bd4c6284295df238aa75621 = $(`<div id="html_277b8a926bd4c6284295df238aa75621" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Maricopa<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 9</div>`)[0];
+                popup_25224972980f058955416f07093e6627.setContent(html_277b8a926bd4c6284295df238aa75621);
+            
+        
+
+        circle_marker_df1db04992977b633d1657750efe11cc.bindPopup(popup_25224972980f058955416f07093e6627)
+        ;
+
+        
+    
+    
+            var circle_marker_749e0f0e03782f2cbcc0488589fc95d6 = L.circleMarker(
+                [37.28973, -120.42972],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_ee8acbbe9b90953b91547d5ac45261c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acda9b9f0eb57a855cd97bf6fb77d64b = $(`<div id="html_acda9b9f0eb57a855cd97bf6fb77d64b" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Merced-Vierra<br><b>County:</b> Merced<br><b>High Ozone Days (&gt;0.070 ppm):</b> 30</div>`)[0];
+                popup_ee8acbbe9b90953b91547d5ac45261c4.setContent(html_acda9b9f0eb57a855cd97bf6fb77d64b);
+            
+        
+
+        circle_marker_749e0f0e03782f2cbcc0488589fc95d6.bindPopup(popup_ee8acbbe9b90953b91547d5ac45261c4)
+        ;
+
+        
+    
+    
+            var circle_marker_e20eb74957f60bd4e017bae7b5bf5953 = L.circleMarker(
+                [33.99636, -117.4924],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_edc2804bb29a793b0d2b91d32f4aa884 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebc19b8cd6560df3b396f9b6d9413e0e = $(`<div id="html_ebc19b8cd6560df3b396f9b6d9413e0e" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Mira Loma (Van Buren)<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 79</div>`)[0];
+                popup_edc2804bb29a793b0d2b91d32f4aa884.setContent(html_ebc19b8cd6560df3b396f9b6d9413e0e);
+            
+        
+
+        circle_marker_e20eb74957f60bd4e017bae7b5bf5953.bindPopup(popup_edc2804bb29a793b0d2b91d32f4aa884)
+        ;
+
+        
+    
+    
+            var circle_marker_f6648b758fb4c56baebc096b93199cae = L.circleMarker(
+                [37.64216, -120.99421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e41473f28e01da51cf5fcc1975a1bec7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b63db613576a32208a3910ecfb8a2bd = $(`<div id="html_9b63db613576a32208a3910ecfb8a2bd" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Modesto-14Th Street<br><b>County:</b> Stanislaus<br><b>High Ozone Days (&gt;0.070 ppm):</b> 13</div>`)[0];
+                popup_e41473f28e01da51cf5fcc1975a1bec7.setContent(html_9b63db613576a32208a3910ecfb8a2bd);
+            
+        
+
+        circle_marker_f6648b758fb4c56baebc096b93199cae.bindPopup(popup_e41473f28e01da51cf5fcc1975a1bec7)
+        ;
+
+        
+    
+    
+            var circle_marker_7e671c6ab5283fbb5edab24289f06bb9 = L.circleMarker(
+                [35.04944, -118.18893],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_10f0aca5374d5463fc96eeae05d31212 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8694b91f8e25205a124eeff5624c1ccd = $(`<div id="html_8694b91f8e25205a124eeff5624c1ccd" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Mojave-Pat Avenue<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 20</div>`)[0];
+                popup_10f0aca5374d5463fc96eeae05d31212.setContent(html_8694b91f8e25205a124eeff5624c1ccd);
+            
+        
+
+        circle_marker_7e671c6ab5283fbb5edab24289f06bb9.bindPopup(popup_10f0aca5374d5463fc96eeae05d31212)
+        ;
+
+        
+    
+    
+            var circle_marker_209d9e65548e709d83438f353f6440cb = L.circleMarker(
+                [33.94471, -116.83007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_1b14fe661ec7cdc41caab3614d1b8f87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50200704464acb1ffe76d136d3aa6907 = $(`<div id="html_50200704464acb1ffe76d136d3aa6907" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Morongo Air Monitoring Station<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 86</div>`)[0];
+                popup_1b14fe661ec7cdc41caab3614d1b8f87.setContent(html_50200704464acb1ffe76d136d3aa6907);
+            
+        
+
+        circle_marker_209d9e65548e709d83438f353f6440cb.bindPopup(popup_1b14fe661ec7cdc41caab3614d1b8f87)
+        ;
+
+        
+    
+    
+            var circle_marker_f8cc49170bd60f5756390fe2663117ea = L.circleMarker(
+                [33.21361, -115.54528],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_6362bdd8a99d81a53f5675562ba5516b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe2ce475b989bce231343b93b061688 = $(`<div id="html_0fe2ce475b989bce231343b93b061688" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Niland-English Road<br><b>County:</b> Imperial<br><b>High Ozone Days (&gt;0.070 ppm):</b> 5</div>`)[0];
+                popup_6362bdd8a99d81a53f5675562ba5516b.setContent(html_0fe2ce475b989bce231343b93b061688);
+            
+        
+
+        circle_marker_f8cc49170bd60f5756390fe2663117ea.bindPopup(popup_6362bdd8a99d81a53f5675562ba5516b)
+        ;
+
+        
+    
+    
+            var circle_marker_9155b5318f7bfa7045255be502caf697 = L.circleMarker(
+                [34.18198, -118.36304],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_9bbdedb9d2b39b9904d14ac77a51d032 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38624e36b4a496e16db700664e8d3b38 = $(`<div id="html_38624e36b4a496e16db700664e8d3b38" style="width: 100.0%; height: 100.0%;"><b>Site:</b> North Hollywood (Noho)<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 33</div>`)[0];
+                popup_9bbdedb9d2b39b9904d14ac77a51d032.setContent(html_38624e36b4a496e16db700664e8d3b38);
+            
+        
+
+        circle_marker_9155b5318f7bfa7045255be502caf697.bindPopup(popup_9bbdedb9d2b39b9904d14ac77a51d032)
+        ;
+
+        
+    
+    
+            var circle_marker_057bc7d645f8d130ba6b49ff7dfe10b2 = L.circleMarker(
+                [35.43804, -119.01679],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_32c447aab214be69d3f2f22dc82be71d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f78ae844d9a8c516cb1b9d354f8e438c = $(`<div id="html_f78ae844d9a8c516cb1b9d354f8e438c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Oildale<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 47</div>`)[0];
+                popup_32c447aab214be69d3f2f22dc82be71d.setContent(html_f78ae844d9a8c516cb1b9d354f8e438c);
+            
+        
+
+        circle_marker_057bc7d645f8d130ba6b49ff7dfe10b2.bindPopup(popup_32c447aab214be69d3f2f22dc82be71d)
+        ;
+
+        
+    
+    
+            var circle_marker_0961c413c76718755f8b6f83de0f52ea = L.circleMarker(
+                [33.85275, -116.54101],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3629e97da8159b60a9124fed43139ff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b0915a962a69272b8d3c9284583d0a3 = $(`<div id="html_1b0915a962a69272b8d3c9284583d0a3" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Palm Springs<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 55</div>`)[0];
+                popup_3629e97da8159b60a9124fed43139ff4.setContent(html_1b0915a962a69272b8d3c9284583d0a3);
+            
+        
+
+        circle_marker_0961c413c76718755f8b6f83de0f52ea.bindPopup(popup_3629e97da8159b60a9124fed43139ff4)
+        ;
+
+        
+    
+    
+            var circle_marker_4b1ecb3b33f3c862008bf3090014b4e7 = L.circleMarker(
+                [34.54166, -119.79146],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3033835dfda26d75b003c10fc6a297db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_590d087979eca15f6ef194cc937ba3b4 = $(`<div id="html_590d087979eca15f6ef194cc937ba3b4" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Paradise Road<br><b>County:</b> Santa Barbara<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_3033835dfda26d75b003c10fc6a297db.setContent(html_590d087979eca15f6ef194cc937ba3b4);
+            
+        
+
+        circle_marker_4b1ecb3b33f3c862008bf3090014b4e7.bindPopup(popup_3033835dfda26d75b003c10fc6a297db)
+        ;
+
+        
+    
+    
+            var circle_marker_01a092c92d4c0d8e1ab1cda545a287df = L.circleMarker(
+                [36.59744, -119.50366],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_777fd781f3e9e74e87144828140716a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9abae8c6b44eb3af675d0ad635dd6ca = $(`<div id="html_e9abae8c6b44eb3af675d0ad635dd6ca" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Parlier<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 51</div>`)[0];
+                popup_777fd781f3e9e74e87144828140716a1.setContent(html_e9abae8c6b44eb3af675d0ad635dd6ca);
+            
+        
+
+        circle_marker_01a092c92d4c0d8e1ab1cda545a287df.bindPopup(popup_777fd781f3e9e74e87144828140716a1)
+        ;
+
+        
+    
+    
+            var circle_marker_7e1e0518d669e89f213034efcd7e051d = L.circleMarker(
+                [34.1326, -118.1272],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_cf4a725e7b3499d2ed4d0c47ddd3a5b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_45ab87af23f555cc6deb533ed7e044bf = $(`<div id="html_45ab87af23f555cc6deb533ed7e044bf" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Pasadena<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 42</div>`)[0];
+                popup_cf4a725e7b3499d2ed4d0c47ddd3a5b8.setContent(html_45ab87af23f555cc6deb533ed7e044bf);
+            
+        
+
+        circle_marker_7e1e0518d669e89f213034efcd7e051d.bindPopup(popup_cf4a725e7b3499d2ed4d0c47ddd3a5b8)
+        ;
+
+        
+    
+    
+            var circle_marker_7769276b3f5bd64e83e31b5ed021e915 = L.circleMarker(
+                [33.44787, -117.08865],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_412c7a97c2f339504aa21799adc70b79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_847ee4afaf6bfd6fa7fa15f217d81f77 = $(`<div id="html_847ee4afaf6bfd6fa7fa15f217d81f77" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Pechanga<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 10</div>`)[0];
+                popup_412c7a97c2f339504aa21799adc70b79.setContent(html_847ee4afaf6bfd6fa7fa15f217d81f77);
+            
+        
+
+        circle_marker_7769276b3f5bd64e83e31b5ed021e915.bindPopup(popup_412c7a97c2f339504aa21799adc70b79)
+        ;
+
+        
+    
+    
+            var circle_marker_16f394550dd716f81953ee7eea2e0535 = L.circleMarker(
+                [34.01029, -118.0685],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3070ff1fd46629ac8a361787f82e4310 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2dadab04b1cef4661642a601fe7cdf0 = $(`<div id="html_e2dadab04b1cef4661642a601fe7cdf0" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Pico Rivera #2<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 12</div>`)[0];
+                popup_3070ff1fd46629ac8a361787f82e4310.setContent(html_e2dadab04b1cef4661642a601fe7cdf0);
+            
+        
+
+        circle_marker_16f394550dd716f81953ee7eea2e0535.bindPopup(popup_3070ff1fd46629ac8a361787f82e4310)
+        ;
+
+        
+    
+    
+            var circle_marker_2eb73b81744af1d49c688f293f237079 = L.circleMarker(
+                [36.48324, -121.15688],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_d38c814a6cfc9815027efd3d4bca5471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d50bf61b95658fe2e4f68edf3784e01 = $(`<div id="html_1d50bf61b95658fe2e4f68edf3784e01" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Pinnacles Np<br><b>County:</b> San Benito<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_d38c814a6cfc9815027efd3d4bca5471.setContent(html_1d50bf61b95658fe2e4f68edf3784e01);
+            
+        
+
+        circle_marker_2eb73b81744af1d49c688f293f237079.bindPopup(popup_d38c814a6cfc9815027efd3d4bca5471)
+        ;
+
+        
+    
+    
+            var circle_marker_aeb9fabda470278498fe41ba6e1d6abb = L.circleMarker(
+                [34.40428, -118.80998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_09db780d00e45a763f5539595e34bdac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80594038b0669e1e9b4445ebd81ec238 = $(`<div id="html_80594038b0669e1e9b4445ebd81ec238" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Piru - Pacific<br><b>County:</b> Ventura<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_09db780d00e45a763f5539595e34bdac.setContent(html_80594038b0669e1e9b4445ebd81ec238);
+            
+        
+
+        circle_marker_aeb9fabda470278498fe41ba6e1d6abb.bindPopup(popup_09db780d00e45a763f5539595e34bdac)
+        ;
+
+        
+    
+    
+            var circle_marker_920b132723a25a9fd17aeddd0af9599f = L.circleMarker(
+                [38.73196, -120.81162],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_afd34db1fc535a76c106db91b7475d67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5060ab5623ac36a8862639d1584487a0 = $(`<div id="html_5060ab5623ac36a8862639d1584487a0" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Placerville- Canal Street<br><b>County:</b> El Dorado<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_afd34db1fc535a76c106db91b7475d67.setContent(html_5060ab5623ac36a8862639d1584487a0);
+            
+        
+
+        circle_marker_920b132723a25a9fd17aeddd0af9599f.bindPopup(popup_afd34db1fc535a76c106db91b7475d67)
+        ;
+
+        
+    
+    
+            var circle_marker_70bc1d34bec75a27de481b0a04ba71bf = L.circleMarker(
+                [34.06703, -117.7514],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_21701859008c816f0745426df336724f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a94a85b3295584d45e8a9a3026b23dbf = $(`<div id="html_a94a85b3295584d45e8a9a3026b23dbf" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Pomona<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 74</div>`)[0];
+                popup_21701859008c816f0745426df336724f.setContent(html_a94a85b3295584d45e8a9a3026b23dbf);
+            
+        
+
+        circle_marker_70bc1d34bec75a27de481b0a04ba71bf.bindPopup(popup_21701859008c816f0745426df336724f)
+        ;
+
+        
+    
+    
+            var circle_marker_30529970bd1e6c448a1dae6a29f2a6ba = L.circleMarker(
+                [36.03183, -119.05502],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_b69eadc572e7a542bbad120de1614d38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_633f7f7258177f88dd4c7e14cc082cb4 = $(`<div id="html_633f7f7258177f88dd4c7e14cc082cb4" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Porterville<br><b>County:</b> Tulare<br><b>High Ozone Days (&gt;0.070 ppm):</b> 51</div>`)[0];
+                popup_b69eadc572e7a542bbad120de1614d38.setContent(html_633f7f7258177f88dd4c7e14cc082cb4);
+            
+        
+
+        circle_marker_30529970bd1e6c448a1dae6a29f2a6ba.bindPopup(popup_b69eadc572e7a542bbad120de1614d38)
+        ;
+
+        
+    
+    
+            var circle_marker_7a803587723031dd2a5ccb068624b13a = L.circleMarker(
+                [35.64368, -120.23135],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_a3998b4cab142bc4839bea1e594028e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c56596c06698420883defa76219168d = $(`<div id="html_3c56596c06698420883defa76219168d" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Red Hills<br><b>County:</b> San Luis Obispo<br><b>High Ozone Days (&gt;0.070 ppm):</b> 6</div>`)[0];
+                popup_a3998b4cab142bc4839bea1e594028e1.setContent(html_3c56596c06698420883defa76219168d);
+            
+        
+
+        circle_marker_7a803587723031dd2a5ccb068624b13a.bindPopup(popup_a3998b4cab142bc4839bea1e594028e1)
+        ;
+
+        
+    
+    
+            var circle_marker_a9f540a1fcb609a212b66bff3de2d886 = L.circleMarker(
+                [40.55013, -122.38092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_82fdad8f913576a5fb1c82753c65cea8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_baebae392d05a8b8f3466e2ca47ae6b6 = $(`<div id="html_baebae392d05a8b8f3466e2ca47ae6b6" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Redding - Health Department<br><b>County:</b> Shasta<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_82fdad8f913576a5fb1c82753c65cea8.setContent(html_baebae392d05a8b8f3466e2ca47ae6b6);
+            
+        
+
+        circle_marker_a9f540a1fcb609a212b66bff3de2d886.bindPopup(popup_82fdad8f913576a5fb1c82753c65cea8)
+        ;
+
+        
+    
+    
+            var circle_marker_2c24e7870c62152e0e08ce88cf23e819 = L.circleMarker(
+                [34.05977, -117.14731],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_71f5ba8b0af151a0d8eee38ab580d226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80cea67ac79deecd4002dfe5f5adf8c9 = $(`<div id="html_80cea67ac79deecd4002dfe5f5adf8c9" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Redlands<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 111</div>`)[0];
+                popup_71f5ba8b0af151a0d8eee38ab580d226.setContent(html_80cea67ac79deecd4002dfe5f5adf8c9);
+            
+        
+
+        circle_marker_2c24e7870c62152e0e08ce88cf23e819.bindPopup(popup_71f5ba8b0af151a0d8eee38ab580d226)
+        ;
+
+        
+    
+    
+            var circle_marker_dbde015c466ca6e8e5396a63cc4c7133 = L.circleMarker(
+                [34.19925, -118.53276],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c8885005a2c3af2ac227c59280e00641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7c420585b497d1cf59f42dc6441c9fb6 = $(`<div id="html_7c420585b497d1cf59f42dc6441c9fb6" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Reseda<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 46</div>`)[0];
+                popup_c8885005a2c3af2ac227c59280e00641.setContent(html_7c420585b497d1cf59f42dc6441c9fb6);
+            
+        
+
+        circle_marker_dbde015c466ca6e8e5396a63cc4c7133.bindPopup(popup_c8885005a2c3af2ac227c59280e00641)
+        ;
+
+        
+    
+    
+            var circle_marker_aeba2295c79e0c80a057050ab794f907 = L.circleMarker(
+                [38.74643, -121.26498],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_a1a4a15c32190f1a6364517ddeaf1abc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2cc1cd1e0de0670079c4b0db2502de0 = $(`<div id="html_c2cc1cd1e0de0670079c4b0db2502de0" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Roseville-N Sunrise Ave<br><b>County:</b> Placer<br><b>High Ozone Days (&gt;0.070 ppm):</b> 14</div>`)[0];
+                popup_a1a4a15c32190f1a6364517ddeaf1abc.setContent(html_c2cc1cd1e0de0670079c4b0db2502de0);
+            
+        
+
+        circle_marker_aeba2295c79e0c80a057050ab794f907.bindPopup(popup_a1a4a15c32190f1a6364517ddeaf1abc)
+        ;
+
+        
+    
+    
+            var circle_marker_a418ad35a432f3a4c1455ab63979ab3b = L.circleMarker(
+                [33.99958, -117.41601],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_cb45fd8d13ef877775bafbaa62e24262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29d5592e1fde9966851adb7584822b3c = $(`<div id="html_29d5592e1fde9966851adb7584822b3c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Rubidoux<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 99</div>`)[0];
+                popup_cb45fd8d13ef877775bafbaa62e24262.setContent(html_29d5592e1fde9966851adb7584822b3c);
+            
+        
+
+        circle_marker_a418ad35a432f3a4c1455ab63979ab3b.bindPopup(popup_cb45fd8d13ef877775bafbaa62e24262)
+        ;
+
+        
+    
+    
+            var circle_marker_7416fac6d60edd1ceec1c4def58f54bf = L.circleMarker(
+                [38.56844, -121.49311],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_8a1ac4db5c2495c7f13ee58d5088110e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b0db752c73861840201f78fab6d381d = $(`<div id="html_4b0db752c73861840201f78fab6d381d" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sacramento-1309 T Street<br><b>County:</b> Sacramento<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_8a1ac4db5c2495c7f13ee58d5088110e.setContent(html_4b0db752c73861840201f78fab6d381d);
+            
+        
+
+        circle_marker_7416fac6d60edd1ceec1c4def58f54bf.bindPopup(popup_8a1ac4db5c2495c7f13ee58d5088110e)
+        ;
+
+        
+    
+    
+            var circle_marker_20c8c3b748c0cdfbacf83a3a03abcff1 = L.circleMarker(
+                [38.61378, -121.36801],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c7f78ea4690f96317644af2759928ee0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d6d2e806eecc047fbe14bf8775b726e = $(`<div id="html_6d6d2e806eecc047fbe14bf8775b726e" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sacramento-Del Paso Manor<br><b>County:</b> Sacramento<br><b>High Ozone Days (&gt;0.070 ppm):</b> 14</div>`)[0];
+                popup_c7f78ea4690f96317644af2759928ee0.setContent(html_6d6d2e806eecc047fbe14bf8775b726e);
+            
+        
+
+        circle_marker_20c8c3b748c0cdfbacf83a3a03abcff1.bindPopup(popup_c7f78ea4690f96317644af2759928ee0)
+        ;
+
+        
+    
+    
+            var circle_marker_2cca5daae911953f0036c04b387fff0f = L.circleMarker(
+                [38.20185, -120.68028],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e727af1d45ac3d082804cf3063e4d394 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12138772b2718cc266faed78f00ff46d = $(`<div id="html_12138772b2718cc266faed78f00ff46d" style="width: 100.0%; height: 100.0%;"><b>Site:</b> San Andreas-Gold Strike Road<br><b>County:</b> Calaveras<br><b>High Ozone Days (&gt;0.070 ppm):</b> 8</div>`)[0];
+                popup_e727af1d45ac3d082804cf3063e4d394.setContent(html_12138772b2718cc266faed78f00ff46d);
+            
+        
+
+        circle_marker_2cca5daae911953f0036c04b387fff0f.bindPopup(popup_e727af1d45ac3d082804cf3063e4d394)
+        ;
+
+        
+    
+    
+            var circle_marker_c72d466a71f8a1b56541ad98df2ae42f = L.circleMarker(
+                [34.10668, -117.27406],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_dd3d6993b9031471e4cc378430812b59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f3560721470260668ed4d2e781cc961 = $(`<div id="html_0f3560721470260668ed4d2e781cc961" style="width: 100.0%; height: 100.0%;"><b>Site:</b> San Bernardino<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 109</div>`)[0];
+                popup_dd3d6993b9031471e4cc378430812b59.setContent(html_0f3560721470260668ed4d2e781cc961);
+            
+        
+
+        circle_marker_c72d466a71f8a1b56541ad98df2ae42f.bindPopup(popup_dd3d6993b9031471e4cc378430812b59)
+        ;
+
+        
+    
+    
+            var circle_marker_5f2ab77a6e8240b21274d14225d237e4 = L.circleMarker(
+                [32.84571, -117.12396],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_d701dd00584bca0c2cea5c517e79a765 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3289070cc860c540392966ac6af86949 = $(`<div id="html_3289070cc860c540392966ac6af86949" style="width: 100.0%; height: 100.0%;"><b>Site:</b> San Diego - Kearny Villa Rd.<br><b>County:</b> San Diego<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_d701dd00584bca0c2cea5c517e79a765.setContent(html_3289070cc860c540392966ac6af86949);
+            
+        
+
+        circle_marker_5f2ab77a6e8240b21274d14225d237e4.bindPopup(popup_d701dd00584bca0c2cea5c517e79a765)
+        ;
+
+        
+    
+    
+            var circle_marker_c0163e07a1f027a84b905767be3ddd88 = L.circleMarker(
+                [37.07938, -121.60003],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_950269b8bf8d8d80e76186f925a4b47d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_898fc171657846a3c3b21264c55920ee = $(`<div id="html_898fc171657846a3c3b21264c55920ee" style="width: 100.0%; height: 100.0%;"><b>Site:</b> San Martin<br><b>County:</b> Santa Clara<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_950269b8bf8d8d80e76186f925a4b47d.setContent(html_898fc171657846a3c3b21264c55920ee);
+            
+        
+
+        circle_marker_c0163e07a1f027a84b905767be3ddd88.bindPopup(popup_950269b8bf8d8d80e76186f925a4b47d)
+        ;
+
+        
+    
+    
+            var circle_marker_6c3c74c3b7ccf139ef5f17e68dbd5dce = L.circleMarker(
+                [34.38344, -118.5284],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_a1106b6a1bcfaaf4fee57fd897bde96e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3d4807feeaa321ba5f4c6483e25f3ea = $(`<div id="html_f3d4807feeaa321ba5f4c6483e25f3ea" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Santa Clarita<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 94</div>`)[0];
+                popup_a1106b6a1bcfaaf4fee57fd897bde96e.setContent(html_f3d4807feeaa321ba5f4c6483e25f3ea);
+            
+        
+
+        circle_marker_6c3c74c3b7ccf139ef5f17e68dbd5dce.bindPopup(popup_a1106b6a1bcfaaf4fee57fd897bde96e)
+        ;
+
+        
+    
+    
+            var circle_marker_fbd19471d7e20c2cf73a4cebd6b09eee = L.circleMarker(
+                [36.48947, -118.82915],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c994127456cbd2be45292001892d1f29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fd47cee45bc689328485b5dd34f7727 = $(`<div id="html_9fd47cee45bc689328485b5dd34f7727" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sequoia & Kings Canyon Nps - Ash Mountain<br><b>County:</b> Tulare<br><b>High Ozone Days (&gt;0.070 ppm):</b> 94</div>`)[0];
+                popup_c994127456cbd2be45292001892d1f29.setContent(html_9fd47cee45bc689328485b5dd34f7727);
+            
+        
+
+        circle_marker_fbd19471d7e20c2cf73a4cebd6b09eee.bindPopup(popup_c994127456cbd2be45292001892d1f29)
+        ;
+
+        
+    
+    
+            var circle_marker_4119d70a7262d3ca5d40b081f67b2563 = L.circleMarker(
+                [36.56613, -118.7777],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_d90b8a1f1fa899e8f94197c25fead523 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d92df5ca6e55df1c649f3cbfc7be44cc = $(`<div id="html_d92df5ca6e55df1c649f3cbfc7be44cc" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sequoia & Kings Canyon Nps - Lower Kaweah<br><b>County:</b> Tulare<br><b>High Ozone Days (&gt;0.070 ppm):</b> 51</div>`)[0];
+                popup_d90b8a1f1fa899e8f94197c25fead523.setContent(html_d92df5ca6e55df1c649f3cbfc7be44cc);
+            
+        
+
+        circle_marker_4119d70a7262d3ca5d40b081f67b2563.bindPopup(popup_d90b8a1f1fa899e8f94197c25fead523)
+        ;
+
+        
+    
+    
+            var circle_marker_b45966f4dd2efd3dababe7c9e9fd9389 = L.circleMarker(
+                [35.50359, -119.27261],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3cf0a294a3ce4a854fdb1cfe7705cc13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52237ab56aa0513e7c8591c4f1f40d68 = $(`<div id="html_52237ab56aa0513e7c8591c4f1f40d68" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Shafter<br><b>County:</b> Kern<br><b>High Ozone Days (&gt;0.070 ppm):</b> 24</div>`)[0];
+                popup_3cf0a294a3ce4a854fdb1cfe7705cc13.setContent(html_52237ab56aa0513e7c8591c4f1f40d68);
+            
+        
+
+        circle_marker_b45966f4dd2efd3dababe7c9e9fd9389.bindPopup(popup_3cf0a294a3ce4a854fdb1cfe7705cc13)
+        ;
+
+        
+    
+    
+            var circle_marker_1280e93e6aa14627f61e60458fff5c0c = L.circleMarker(
+                [40.68925, -122.40219],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_ea41ff86917e700b0da2f95b64ef9d1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcd383ca6405e3c5e120ed0663ef581c = $(`<div id="html_fcd383ca6405e3c5e120ed0663ef581c" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Shasta Lake - Lake Blvd<br><b>County:</b> Shasta<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_ea41ff86917e700b0da2f95b64ef9d1d.setContent(html_fcd383ca6405e3c5e120ed0663ef581c);
+            
+        
+
+        circle_marker_1280e93e6aa14627f61e60458fff5c0c.bindPopup(popup_ea41ff86917e700b0da2f95b64ef9d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_a5dde05c90e1404096beb61f794e2774 = L.circleMarker(
+                [33.79371, -118.17102],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_c8390f4a8dc21423a7429f2935b71bce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82439ff6b0c588bcd1ccd73a386d05a9 = $(`<div id="html_82439ff6b0c588bcd1ccd73a386d05a9" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Signal Hill (Lbsh)<br><b>County:</b> Los Angeles<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_c8390f4a8dc21423a7429f2935b71bce.setContent(html_82439ff6b0c588bcd1ccd73a386d05a9);
+            
+        
+
+        circle_marker_a5dde05c90e1404096beb61f794e2774.bindPopup(popup_c8390f4a8dc21423a7429f2935b71bce)
+        ;
+
+        
+    
+    
+            var circle_marker_e328c3a3d702c627a95bffe75519fedd = L.circleMarker(
+                [34.27632, -118.68368],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_88c2cb5fbbe36bd9aa76b760189614c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e72847717894c85ae0efbfeb8da1cb7 = $(`<div id="html_8e72847717894c85ae0efbfeb8da1cb7" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Simi Valley-Cochran Street<br><b>County:</b> Ventura<br><b>High Ozone Days (&gt;0.070 ppm):</b> 13</div>`)[0];
+                popup_88c2cb5fbbe36bd9aa76b760189614c3.setContent(html_8e72847717894c85ae0efbfeb8da1cb7);
+            
+        
+
+        circle_marker_e328c3a3d702c627a95bffe75519fedd.bindPopup(popup_88c2cb5fbbe36bd9aa76b760189614c3)
+        ;
+
+        
+    
+    
+            var circle_marker_0ad9d517c6b7f8e57afbf01145fda325 = L.circleMarker(
+                [38.49448, -121.21113],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_dd5aa81d92eed9ee4137e5638e6b7160 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa154409a5da5c86d3d78a32f3c3ecf0 = $(`<div id="html_fa154409a5da5c86d3d78a32f3c3ecf0" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sloughhouse<br><b>County:</b> Sacramento<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_dd5aa81d92eed9ee4137e5638e6b7160.setContent(html_fa154409a5da5c86d3d78a32f3c3ecf0);
+            
+        
+
+        circle_marker_0ad9d517c6b7f8e57afbf01145fda325.bindPopup(popup_dd5aa81d92eed9ee4137e5638e6b7160)
+        ;
+
+        
+    
+    
+            var circle_marker_3da8163f4d9468667a25b80446f8e08b = L.circleMarker(
+                [37.98178, -120.37855],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_ec4651e6dbe6c6784bfa690825f4a9d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf4018af2cb9c4df0bc26479cb1fa6f8 = $(`<div id="html_bf4018af2cb9c4df0bc26479cb1fa6f8" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sonora-Barretta Street<br><b>County:</b> Tuolumne<br><b>High Ozone Days (&gt;0.070 ppm):</b> 4</div>`)[0];
+                popup_ec4651e6dbe6c6784bfa690825f4a9d1.setContent(html_bf4018af2cb9c4df0bc26479cb1fa6f8);
+            
+        
+
+        circle_marker_3da8163f4d9468667a25b80446f8e08b.bindPopup(popup_ec4651e6dbe6c6784bfa690825f4a9d1)
+        ;
+
+        
+    
+    
+            var circle_marker_b72e7ddf31412fdf7f14a77d5cd252b3 = L.circleMarker(
+                [37.96158, -121.28141],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_719568b66e5620a58da4e05f1410b230 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ccf11487aa791567ca902ecf91b6645 = $(`<div id="html_5ccf11487aa791567ca902ecf91b6645" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Stockton - University Park<br><b>County:</b> San Joaquin<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_719568b66e5620a58da4e05f1410b230.setContent(html_5ccf11487aa791567ca902ecf91b6645);
+            
+        
+
+        circle_marker_b72e7ddf31412fdf7f14a77d5cd252b3.bindPopup(popup_719568b66e5620a58da4e05f1410b230)
+        ;
+
+        
+    
+    
+            var circle_marker_decbd013f6214c2a11db1f3107660432 = L.circleMarker(
+                [39.20557, -121.82036],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_fb2dbf5b92dc6023009610fb0c5de2e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b4f7eaace8e0212909ed439f8adea77 = $(`<div id="html_6b4f7eaace8e0212909ed439f8adea77" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Sutter Buttes (Seasonal)<br><b>County:</b> Sutter<br><b>High Ozone Days (&gt;0.070 ppm):</b> 2</div>`)[0];
+                popup_fb2dbf5b92dc6023009610fb0c5de2e7.setContent(html_6b4f7eaace8e0212909ed439f8adea77);
+            
+        
+
+        circle_marker_decbd013f6214c2a11db1f3107660432.bindPopup(popup_fb2dbf5b92dc6023009610fb0c5de2e7)
+        ;
+
+        
+    
+    
+            var circle_marker_74e4226075c7af702c07aeee80825b2a = L.circleMarker(
+                [36.98512, -119.65834],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_afbae926773400ffee794c3b2dcc0456 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0859a29849d2233afc171996ef31f960 = $(`<div id="html_0859a29849d2233afc171996ef31f960" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Table Mountain Air Monitoring Site<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 62</div>`)[0];
+                popup_afbae926773400ffee794c3b2dcc0456.setContent(html_0859a29849d2233afc171996ef31f960);
+            
+        
+
+        circle_marker_74e4226075c7af702c07aeee80825b2a.bindPopup(popup_afbae926773400ffee794c3b2dcc0456)
+        ;
+
+        
+    
+    
+            var circle_marker_c53a4e49f8c229c2083809e01835d5e3 = L.circleMarker(
+                [33.58302, -117.0722],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_b24fd187af98513bf41e49781cd821ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3dc91b932e42a18dbdccd6a143c02ed4 = $(`<div id="html_3dc91b932e42a18dbdccd6a143c02ed4" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Temecula<br><b>County:</b> Riverside<br><b>High Ozone Days (&gt;0.070 ppm):</b> 5</div>`)[0];
+                popup_b24fd187af98513bf41e49781cd821ca.setContent(html_3dc91b932e42a18dbdccd6a143c02ed4);
+            
+        
+
+        circle_marker_c53a4e49f8c229c2083809e01835d5e3.bindPopup(popup_b24fd187af98513bf41e49781cd821ca)
+        ;
+
+        
+    
+    
+            var circle_marker_efcaa6feae6d135bb33ce1015d6febd8 = L.circleMarker(
+                [37.68263, -121.4425],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_800f3327a6b41b9eb4c4e9b754ff7859 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bdaf89bb3b747992352297644751e2f = $(`<div id="html_3bdaf89bb3b747992352297644751e2f" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Tracy-Airport<br><b>County:</b> San Joaquin<br><b>High Ozone Days (&gt;0.070 ppm):</b> 3</div>`)[0];
+                popup_800f3327a6b41b9eb4c4e9b754ff7859.setContent(html_3bdaf89bb3b747992352297644751e2f);
+            
+        
+
+        circle_marker_efcaa6feae6d135bb33ce1015d6febd8.bindPopup(popup_800f3327a6b41b9eb4c4e9b754ff7859)
+        ;
+
+        
+    
+    
+            var circle_marker_3bf19609964dae9046376f1a1e11651b = L.circleMarker(
+                [36.63423, -120.38233],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_5b1691fb329a0867dd7932e06f2095b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0752b973ab35530df04063764a90eb76 = $(`<div id="html_0752b973ab35530df04063764a90eb76" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Tranquillity<br><b>County:</b> Fresno<br><b>High Ozone Days (&gt;0.070 ppm):</b> 4</div>`)[0];
+                popup_5b1691fb329a0867dd7932e06f2095b9.setContent(html_0752b973ab35530df04063764a90eb76);
+            
+        
+
+        circle_marker_3bf19609964dae9046376f1a1e11651b.bindPopup(popup_5b1691fb329a0867dd7932e06f2095b9)
+        ;
+
+        
+    
+    
+            var circle_marker_8fc436b23e63d4d7440b351b2dc8bfef = L.circleMarker(
+                [35.77446, -117.3721],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_6ee905743a2fd77b41d4715497d29531 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3592bfd03392c59bfe8f7b8871bb41d1 = $(`<div id="html_3592bfd03392c59bfe8f7b8871bb41d1" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Trona - Athol/Telescope #2<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 10</div>`)[0];
+                popup_6ee905743a2fd77b41d4715497d29531.setContent(html_3592bfd03392c59bfe8f7b8871bb41d1);
+            
+        
+
+        circle_marker_8fc436b23e63d4d7440b351b2dc8bfef.bindPopup(popup_6ee905743a2fd77b41d4715497d29531)
+        ;
+
+        
+    
+    
+            var circle_marker_ada01542ce1a62c85e992fc8afcff113 = L.circleMarker(
+                [37.48832, -120.83601],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_cac041b353dc34168179650ffd218484 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3fac344fc0888e9f970360496ffc850 = $(`<div id="html_d3fac344fc0888e9f970360496ffc850" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Turlock<br><b>County:</b> Stanislaus<br><b>High Ozone Days (&gt;0.070 ppm):</b> 30</div>`)[0];
+                popup_cac041b353dc34168179650ffd218484.setContent(html_d3fac344fc0888e9f970360496ffc850);
+            
+        
+
+        circle_marker_ada01542ce1a62c85e992fc8afcff113.bindPopup(popup_cac041b353dc34168179650ffd218484)
+        ;
+
+        
+    
+    
+            var circle_marker_f036f9dca39c947b2d0034430208a83e = L.circleMarker(
+                [40.26207, -122.09277],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_f120e893bb287c924978193e9b4f4be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c525fa738ce8fe0d76e89110551125da = $(`<div id="html_c525fa738ce8fe0d76e89110551125da" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Tuscan Butte (Seasonal)<br><b>County:</b> Tehama<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_f120e893bb287c924978193e9b4f4be3.setContent(html_c525fa738ce8fe0d76e89110551125da);
+            
+        
+
+        circle_marker_f036f9dca39c947b2d0034430208a83e.bindPopup(popup_f120e893bb287c924978193e9b4f4be3)
+        ;
+
+        
+    
+    
+            var circle_marker_39d2b71c727210996b0dba0e32c7ca93 = L.circleMarker(
+                [38.10251, -122.23798],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_37b3e514f6688098d65c9e34efa9fcdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a30b41d1eba03c66d2ad4ae37f5d3ef5 = $(`<div id="html_a30b41d1eba03c66d2ad4ae37f5d3ef5" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Vallejo<br><b>County:</b> Solano<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_37b3e514f6688098d65c9e34efa9fcdb.setContent(html_a30b41d1eba03c66d2ad4ae37f5d3ef5);
+            
+        
+
+        circle_marker_39d2b71c727210996b0dba0e32c7ca93.bindPopup(popup_37b3e514f6688098d65c9e34efa9fcdb)
+        ;
+
+        
+    
+    
+            var circle_marker_cc11a787ee5cb6ff221daa9ea6f9303c = L.circleMarker(
+                [34.51096, -117.32554],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_89dc211b495fd966a8864893a6fade8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f6aa5b088fb516f245feb2645fd2763 = $(`<div id="html_6f6aa5b088fb516f245feb2645fd2763" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Victorville-Park Avenue<br><b>County:</b> San Bernardino<br><b>High Ozone Days (&gt;0.070 ppm):</b> 46</div>`)[0];
+                popup_89dc211b495fd966a8864893a6fade8d.setContent(html_6f6aa5b088fb516f245feb2645fd2763);
+            
+        
+
+        circle_marker_cc11a787ee5cb6ff221daa9ea6f9303c.bindPopup(popup_89dc211b495fd966a8864893a6fade8d)
+        ;
+
+        
+    
+    
+            var circle_marker_6df5ab587956ad379e6e98e7f2c82595 = L.circleMarker(
+                [36.30815, -119.3129],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e9104befae73ccf27acae6c11b0fbd4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba7efcba3f0a5803ac14ffc15cd52796 = $(`<div id="html_ba7efcba3f0a5803ac14ffc15cd52796" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Visalia-W. Ashland Avenue<br><b>County:</b> Tulare<br><b>High Ozone Days (&gt;0.070 ppm):</b> 62</div>`)[0];
+                popup_e9104befae73ccf27acae6c11b0fbd4c.setContent(html_ba7efcba3f0a5803ac14ffc15cd52796);
+            
+        
+
+        circle_marker_6df5ab587956ad379e6e98e7f2c82595.bindPopup(popup_e9104befae73ccf27acae6c11b0fbd4c)
+        ;
+
+        
+    
+    
+            var circle_marker_45d3defb3cd7ef850e8b4af743db159b = L.circleMarker(
+                [33.0325, -115.62361],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_3d6c98a53b5b81b36b503fc1a6930610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_803eaa4a950f6ac028e1fe524b0393be = $(`<div id="html_803eaa4a950f6ac028e1fe524b0393be" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Westmorland<br><b>County:</b> Imperial<br><b>High Ozone Days (&gt;0.070 ppm):</b> 1</div>`)[0];
+                popup_3d6c98a53b5b81b36b503fc1a6930610.setContent(html_803eaa4a950f6ac028e1fe524b0393be);
+            
+        
+
+        circle_marker_45d3defb3cd7ef850e8b4af743db159b.bindPopup(popup_3d6c98a53b5b81b36b503fc1a6930610)
+        ;
+
+        
+    
+    
+            var circle_marker_3272f36ea720303871d75126657f6c24 = L.circleMarker(
+                [37.71325, -119.7062],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(map_3d17a5724a35df4bdcc292ac48c9ef13);
+        
+    
+        var popup_e1054946922218724f113df608ef34ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaabaafa1af5220218bd87949a85b89e = $(`<div id="html_eaabaafa1af5220218bd87949a85b89e" style="width: 100.0%; height: 100.0%;"><b>Site:</b> Yosemite Np<br><b>County:</b> Mariposa<br><b>High Ozone Days (&gt;0.070 ppm):</b> 4</div>`)[0];
+                popup_e1054946922218724f113df608ef34ae.setContent(html_eaabaafa1af5220218bd87949a85b89e);
+            
+        
+
+        circle_marker_3272f36ea720303871d75126657f6c24.bindPopup(popup_e1054946922218724f113df608ef34ae)
+        ;
+
+        
+    
+</script>
+</html>
